@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustADiscordBot", "JustADiscordBot.csproj", "{AB263F1F-4173-4EC9-B3BC-DC3DC3745695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustADiscordBotTests", "JustADiscordBotTests\JustADiscordBotTests.csproj", "{8CE53E96-F65F-448C-8F27-4FA6701A76A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB263F1F-4173-4EC9-B3BC-DC3DC3745695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB263F1F-4173-4EC9-B3BC-DC3DC3745695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB263F1F-4173-4EC9-B3BC-DC3DC3745695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB263F1F-4173-4EC9-B3BC-DC3DC3745695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CE53E96-F65F-448C-8F27-4FA6701A76A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE53E96-F65F-448C-8F27-4FA6701A76A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE53E96-F65F-448C-8F27-4FA6701A76A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE53E96-F65F-448C-8F27-4FA6701A76A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
