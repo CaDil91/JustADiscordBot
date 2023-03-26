@@ -141,3 +141,5 @@ D:\Repos\JustADiscordBot\JustADiscordBotTests\obj\Debug\net7.0\refint\JustADisco
 D:\Repos\JustADiscordBot\JustADiscordBotTests\obj\Debug\net7.0\JustADiscordBotTests.pdb
 D:\Repos\JustADiscordBot\JustADiscordBotTests\obj\Debug\net7.0\JustADiscordBotTests.genruntimeconfig.cache
 D:\Repos\JustADiscordBot\JustADiscordBotTests\obj\Debug\net7.0\ref\JustADiscordBotTests.dll
+D:\Repos\JustADiscordBot\JustADiscordBotTests\bin\Debug\net7.0\Castle.Core.dll
+D:\Repos\JustADiscordBot\JustADiscordBotTests\bin\Debug\net7.0\Moq.dll

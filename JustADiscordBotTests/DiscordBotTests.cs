@@ -1,15 +1,23 @@
-﻿namespace JustADiscordBot;
+﻿using Microsoft.Extensions.Options;
+using Moq;
+
+namespace JustADiscordBot;
 
 public class DiscordBotTests
 {
+    private Mock<IOptions<DiscordOptions>> _discordOptions = new();
+    
     [Fact]
     public async Task CanStartBot()
     {
         //Arrange.
-        DiscordBot discordBot = new();
+        _discordOptions = new Mock<IOptions<DiscordOptions>>();
+        _discordOptions.Object.Value.DiscordToken = "TODO";
+        
+        DiscordBot discordBot = new(_discordOptions.Object);
 
         //Act.
-        await discordBot.Execute();
+        await discordBot.RunAsync();
         bool connected = discordBot.IsConnected();
 
         //Assert.

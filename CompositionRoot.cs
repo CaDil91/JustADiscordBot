@@ -9,5 +9,4 @@ public static class CompositionRoot
         services.RegisterDiscordBot();
         return services;
     }
-    
 }
